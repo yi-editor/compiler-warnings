@@ -4,8 +4,8 @@ compiler-warnings
 .. image:: https://travis-ci.org/yi-editor/compiler-warnings.svg?branch=master
     :target: https://travis-ci.org/yi-editor/compiler-warnings
 
-.. image:: https://img.shields.io/hackage/v/yi.svg?maxAge=2592000
-    :target: https://hackage.haskell.org/package/yi
+.. image:: https://img.shields.io/hackage/v/compiler-warnings.svg?maxAge=2592000
+    :target: https://hackage.haskell.org/package/compiler-warnings
 
 .. image:: https://img.shields.io/hackage-deps/v/compiler-warnings.svg?maxAge=2592000
 
