@@ -1,0 +1,32 @@
+name: compiler-warnings
+version: 0.1.0
+synopsis: Parser for common compiler warning formats
+maintainer: Yi developers <yi-devel@googlegroups.com>
+license: BSD2
+github: yi-editor/compiler-warnings
+category: Development
+
+ghc-options: -Wall -ferror-spans
+
+dependencies:
+    - base >= 4.8 && < 5
+    - binary >= 0.7.5
+    - text >= 1.2
+    - parsec >= 3.1
+
+library:
+    source-dirs: src
+    exposed-modules:
+        - Text.Warning
+
+tests:
+  tasty:
+    main: Main.hs
+    source-dirs: test
+    dependencies:
+      - tasty
+      - tasty-th
+      - tasty-hunit
+      - tasty-quickcheck
+      - text
+      - compiler-warnings
